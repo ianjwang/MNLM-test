@@ -12,11 +12,11 @@ RoxygenNote: 7.3.2
 Imports:
     ambient,
     NLMR,
-    RandomFields,
     raster,
     terra
 Suggests: 
     knitr,
+    RandomFields,
     RandomFieldsUtils,
     remotes,
     rmarkdown,
