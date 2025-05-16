@@ -1,0 +1,38 @@
+---
+title: "MNLM: Multiple Neutral Landscape Models"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{mypackage-intro}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Installation
+
+The MNLM package can be downloaded and installed from Github.
+```{r}
+# First install the required dependencies, using the remotes package.
+
+#install.packages("remotes")
+remotes::install_github("cran/RandomFieldsUtils")
+remotes::install_github("cran/RandomFields")
+remotes::install_github("ropensci/NLMR")
+
+# Then install MNLM from the Github repository.
+remotes::install_github("ianjwang/MNLM")
+
+```
+
+
+# Running MNLM
+
+```{r setup}
+library(MNLM)
+```

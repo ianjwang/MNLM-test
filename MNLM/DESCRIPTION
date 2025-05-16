@@ -1,0 +1,26 @@
+Package: MNLM
+Type: Package
+Title: Generating Multiple Correlated Neutral Landscape Models
+Version: 1.0
+Authors@R: person("Ian", "Wang", email = "ianwang@berkeley.edu",
+                  role = c("aut", "cre"))
+Description: A toolkit for generating sets of neutral landscape models (NLMs) with specified correlations. NLMs can be generated using a variety of algorithms, and the spatial structure of the NLMs are maintained while generating additional raster surfaces with user-specified correlations.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Imports:
+    ambient,
+    NLMR,
+    RandomFields,
+    raster,
+    terra
+Suggests: 
+    knitr,
+    RandomFieldsUtils,
+    remotes,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+Additional_repositories: https://predictiveecology.r-universe.dev/
